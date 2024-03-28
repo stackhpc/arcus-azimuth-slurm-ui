@@ -90,6 +90,12 @@ parameters:
       checkboxLabel: Run post-configuration validation?
 
 usage_template: |-
+  ** WARNING: This cluster type is provided for testing of OpenHPC v3/RockyLinux 9.
+  Clusters of this type will not necessarily be upgraded in future. See
+  [here](https://github.com/stackhpc/ansible-slurm-appliance/pull/380#issue-2197184232)
+  for information on differences from the default OpenHPC v2/RockyLinux 8 Slurm
+  clusters.**
+
   # Accessing the cluster using Open OnDemand
 
   [Open OnDemand](https://openondemand.org/) is a web portal for managing HPC jobs, including graphical
