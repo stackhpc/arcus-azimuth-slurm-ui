@@ -1,7 +1,7 @@
 # Based on environments/.caas/ui-meta/slurm-infra-manila-home.yml @ v1.144
 
 name: "slurm-ohpc3"
-label: "EXPERIMENTAL Slurm OpenHPC v3"
+label: "Slurm OpenHPC v3 (EXPERIMENTAL)"
 description: >- 
   Batch cluster running the Slurm workload manager, the Open 
   OnDemand web interface, and custom monitoring.
