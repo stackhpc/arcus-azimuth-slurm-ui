@@ -42,7 +42,7 @@ parameters:
     kind: integer
     options:
       min: 1
-    default: 3
+    default: 1
 
   - name: compute_flavor
     label: Compute node size
