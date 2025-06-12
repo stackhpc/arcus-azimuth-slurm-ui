@@ -3,12 +3,13 @@
 # except name/description and reduce default to 1x compute node
 
 name: "slurm-ohpc3"
-label: "Slurm OpenHPC v3 (RockyLinux 9)"
+label: "Slurm OpenHPC v3 (RockyLinux 9) + DAAC"
 description: >- 
   Batch cluster running the Slurm workload manager, the Open 
   OnDemand web interface, and custom monitoring.
 
-  This version uses RockyLinux 9 (OpenHPC v3) and CephFS for home directories.
+  This version uses RockyLinux 9 (OpenHPC v3) and CephFS for home directories,
+  and installs DAAC science packages
 logo: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Slurm_logo.svg/158px-Slurm_logo.svg.png
 
 requires_ssh_key: true
