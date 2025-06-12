@@ -1,14 +1,13 @@
-# RL9 Slurm
+# RL8 Slurm
 # As for upstream https://github.com/stackhpc/ansible-slurm-appliance/blob/main/environments/.caas/ui-meta/slurm-infra-manila-home.yml
 # except name/description and reduce default to 1x compute node
-
-name: "slurm-ohpc3"
-label: "Slurm OpenHPC v3 (RockyLinux 9)"
+name: "slurm-manila-home"
+label: "Slurm OpenHPC v2 (RockyLinux 8)"
 description: >- 
   Batch cluster running the Slurm workload manager, the Open 
   OnDemand web interface, and custom monitoring.
 
-  This version uses RockyLinux 9 (OpenHPC v3) and CephFS for home directories.
+  This version uses RockyLinux 8 (OpenHPC v2) and CephFS for home directories.
 logo: https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Slurm_logo.svg/158px-Slurm_logo.svg.png
 
 requires_ssh_key: true
